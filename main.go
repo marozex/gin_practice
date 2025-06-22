@@ -34,6 +34,7 @@ func main() {
 	})
 
 	router.GET("/items", ItemController.FindAll)
+	router.GET("/items/:id", ItemController.FindById)
 
 	router.Run("localhost:8080") // listen and serve on 0.0.0.0:8080
 }
