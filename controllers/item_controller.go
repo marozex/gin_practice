@@ -15,6 +15,7 @@ type ItemController struct {
 	service services.IItemService
 }
 
+// 構造体のインスタンスを作成するコンストラクタ
 func NewItemController(service services.IItemService) IItemController {
 	return &ItemController{service: service}
 }
