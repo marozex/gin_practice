@@ -1,3 +1,6 @@
+## 参照
+udemy Gin入門
+
 ## 環境構築手順
 ```
 go mod init gin_practice // go.mod作成
